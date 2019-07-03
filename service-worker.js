@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lectrum-workshop-videoplayer/precache-manifest.a20a2e1f4a2fe97516c1827d6f00319b.js"
+  "/react-workshop/precache-manifest.e1d4ede454dcb04065f9222b1e192b73.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/lectrum-workshop-videoplayer/index.html", {
+workbox.routing.registerNavigationRoute("/react-workshop/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
